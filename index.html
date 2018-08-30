@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product landing page demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="product.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mailinglist">Mailing list</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is just filler text, to test layout. At least <a href="http://doctoripsum.com">Doctor ipsum</a> is entertaining.</p>
+            <p>It's a fez. I wear a fez now. Fezzes are cool. Geronimo! No idea. Just do what I do: hold tight and pretend it's a plan. You are the only mystery worth solving. Brave heart, Clara. Look at me. No plans, no backup, no weapons worth a damn. Oh, and something else I don't have: anything to lose. So, if you're sitting up there with your silly little spaceships and your silly little guns and you've any plans on taking the Pandorica tonight; just remember who's standing in your way. Remember
+            every black day I ever stopped you and then, and then, do the smart thing. Let somebody else try first.</p>
+            <p>I know. Dinosaurs! On a spaceship! Look at me. Thank you, Strax. And if I'm ever in need of advice from a psychotic potato dwarf, you'll certainly be the first to know. I need...I need...I need... fish fingers and custard! I never know why. I only know who. Come along, Pond! Usually called 'The Doctor.' Or 'The Caretaker.' Or 'Get off this planet.' Though, strictly speaking, that probably isn't a name. I once
+            spent a hell of a long time trying to get a gobby Australian to Heathrow airport. There's something that doesn't make sense. Let's go and poke it with a stick.</p>
+            <p>People assume that time is a strict progression of cause-and-effect... but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly... timey-wimey... stuff. Oh, yes. Harmless is just the word: that's why I like it! Doesn't kill, doesn't wound, doesn't maim. But I'll tell you what it does do: it is very good at opening doors! There was a war. A Time War. The Last Great Time War. My people fought a race called the Daleks, for the sake of all creation. And they lost. We lost. Everyone lost. They're all gone now. My family. My friends. Even that sky.</p>
+        </section>
+        <section id="projects">
+            <div id="project1">
+                <div id="video-container" class="embed-responsive">
+                    <div id="feedback-info">
+                        <h2>Giving video feedback</h2>
+                        <p>Here's an example of how a professor using an iPad can provide video feedback on students' work:</p>
+                    </div>
+                    <div id="feedback-video">
+                        <video id="video" src="Video-feedback-test.mp4" controls class="embed-responsive-item">Sorry, your browswer doesn't support embedded videos.</video>
+                    </div>
+                </div>
+            </div>
+            <div id="project2">
+                <h2>Section 2</h2>
+                <p>Some project goes here.</p>
+            </div>
+            <div id="project3">
+                <h2>Section 3</h2>
+                <p>Some other project goes here.</p>
+            </div>
+        </section>
+        <div id="mailinglist">
+            <h2>Want to join our mailing list?</h2>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email">Provide your email address to be added: </label>
+                <input type="email" id="email" name="email" required placeholder="myemail@email.com">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+       <p>Some footer text here.</p> 
+    </footer> 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
