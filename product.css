@@ -1,3 +1,21 @@
+@media (max-width: 480px) {
+
+    #other-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project2 {
+    padding: 3em;
+    width: 90%;
+}
+    #project3 {
+        padding: 3em;
+        width: 90%;
+    }
+
+}
+
 body {
     margin-top: 0px;
     padding-top: 0px;
