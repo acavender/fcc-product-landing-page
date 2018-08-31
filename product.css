@@ -12,6 +12,7 @@ main {
 footer {
     background: darkblue;
     color: white;
+    margin-top: 30px;
 }
 
 /* Media queries */
