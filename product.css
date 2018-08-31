@@ -24,6 +24,16 @@ footer {
     background: darkblue;
 }
 
+#other-projects {
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
+#project2 {
+    padding: 3em;
+    width: 50%;
+}
+#project3 {
+    padding: 3em;
+    width: 50%;
+}
