@@ -1,11 +1,4 @@
-@media (max-width: 480px) {
-
-    #other-projects {
-        display: flex;
-        flex-direction: column;
-    }
-
-}
+/* Common styles */
 
 body {
     margin-top: 0px;
@@ -24,26 +17,35 @@ footer {
     margin-top: 30px;
 }
 
-/* Media queries */
-
-/* Collapse navbar if max width 480px */
-
-/* Style navbar */
-
 .navbar-dark {
     background: darkblue;
 }
 
-#other-projects {
-    display: flex;
-    justify-content: space-around;
+/* Media queries */
+
+@media (max-width: 400px) {
+    #other-projects {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-#project2 {
-    padding: 3em;
-    width: 50%;
+@media (min-width: 401px) {
+
+    #other-projects {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #project2 {
+        padding: 1em;
+        width: 50%;
+    }
+    #project3 {
+        padding: 1em;
+        width: 50%;
+    }
+
 }
-#project3 {
-    padding: 3em;
-    width: 50%;
-}
+
+
